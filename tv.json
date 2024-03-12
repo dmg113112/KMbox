@@ -18,9 +18,9 @@
       "logo": "https://gh.con.sh/https://raw.githubusercontent.com/yuanzl77/TVBox-logo/main/png/{name}.png"
     },
     {
-      "name": "IPV6",
+      "name": "线路2",
       "type": 0,
-      "url": "https://gh.con.sh/https://raw.githubusercontent.com/dmg113112/KMbox/main/live.txt",
+      "url": "https://gitee.com/kalimi/kkm/raw/master/live.txt",
       "epg": "https://epg.erw.cc/api/diyp/?ch={name}&date={date}",
       "logo": "https://gh.con.sh/https://raw.githubusercontent.com/yuanzl77/TVBox-logo/main/png/{name}.png"
     }
