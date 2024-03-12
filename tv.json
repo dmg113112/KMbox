@@ -20,7 +20,8 @@
     {
       "name": "IPV6",
       "type": 0,
-      "url": "https://gh.con.sh/https://raw.githubusercontent.com/dmg113112/KMbox/main/live.txt",
+      "url": ""lives":
+	[{"name":"live","type":0,"url":"https://mirror.ghproxy.com/raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/live.txt",
       "epg": "https://epg.erw.cc/api/diyp/?ch={name}&date={date}",
       "logo": "https://gh.con.sh/https://raw.githubusercontent.com/yuanzl77/TVBox-logo/main/png/{name}.png"
     }
