@@ -43,7 +43,7 @@
 
 #动漫
 {"key":"次元","name":"次元｜动漫｜蓝光","type":3,"api":"./lib/drpy2.min.js","searchable":1,"changeable":1,"ext":"./JS/次元城动漫.js"},
-{"key":"喵物","name":"喵物｜动漫｜蓝光","type":3,"api":"./lib/drpy2.min.js","searchable":1,"changeable":1,"ext":"./JS/喵物次元.js"},
+{"key":"喵物","name":"喵物｜动漫｜蓝光","type":3,"api":"./lib/drpy2.min.js"，"searchable":1,"changeable":1,"ext":"./JS/喵物次元.js"},
 {"key":"咕咕","name":"咕咕｜动漫｜蓝光","type":3,"api":"./lib/drpy2.min.js","searchable":1,"changeable":1,"ext":"./JS/咕咕番.js"},
 
 #备用
@@ -68,19 +68,19 @@
 
 {"key":"看球","name":"看球｜体育｜高清","type":3,"api":"csp_Kanqiu","searchable":0,"quickSearch":0,"changeable":0,"style":{"type":"list"}},
 {"key":"push_agent","name":"请勿相信视频广告｜LR","type":3,"api":"csp_Push","searchable":0,"changeable":0,"timeout":60},
-{"key":"LRt1","name":"数据来源于互联网｜LR","type":3,"api":"csp_Kugou","searchable":1}
-],
+{"key":"LRt1","name":"数据来源于互联网｜KM","type":3,"api":"csp_Kugou","searchable":1}
+]，
 
 "parses":[
-        {"name":"LR","type":1,"url":"http://119.91.123.253:2345/Api/yun.php?url=","ext":{"flag":["imgo","migu","qq","qiyi","mgtv","bilibili","youku"],"header":{"User-Agent":"okhttp/3.12.0"}}},
-        {"name":"LR2","type":1,"url":"http://pan.qiaoji8.com/tvbox/neibu.php?url=","ext":{"flag":["imgo","migu","qq","qiyi","mgtv","bilibili","youku"],"header":{"User-Agent":"okhttp/3.12.0"}}},
-        {"name":"LR3","type":1,"url":"http://124.222.30.115/api/aiku.php?url=","ext":{"flag":["imgo","migu","qq","qiyi","mgtv","bilibili","youku"],"header":{"User-Agent":"okhttp/3.12.0"}}},
-        {"name":"LR4","type":0,"url":"http://play.shijie.chat/player/ec.php?code=qq&if=1&url=","ext":{"flag":["imgo","migu","qq","qiyi","mgtv","bilibili","youku"]}},
-        {"name":"LR5","type":0,"url":"https://jx.777jiexi.com/player/?url="}
+        {"name":"KM","type":1,"url":"http://119.91.123.253:2345/Api/yun.php?url=","ext":{"flag":["imgo","migu","qq","qiyi","mgtv","bilibili","youku"],"header":{"User-Agent":"okhttp/3.12.0"}}},
+        {"name":"KM2","type":1,"url":"http://pan.qiaoji8.com/tvbox/neibu.php?url=","ext":{"flag":["imgo","migu","qq","qiyi","mgtv","bilibili","youku"],"header":{"User-Agent":"okhttp/3.12.0"}}},
+        {"name":"KM3","type":1,"url":"http://124.222.30.115/api/aiku.php?url=","ext":{"flag":["imgo","migu","qq","qiyi","mgtv","bilibili","youku"],"header":{"User-Agent":"okhttp/3.12.0"}}},
+        {"name":"KM4","type":0,"url":"http://play.shijie.chat/player/ec.php?code=qq&if=1&url=","ext":{"flag":["imgo","migu","qq","qiyi","mgtv","bilibili","youku"]}},
+        {"name":"KM5","type":0,"url":"https://jx.777jiexi.com/player/?url="}
         ],
 
 "flags":
-["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","PPTV","mgtv","ltnb","XAL","bilibili","tnmb","xigua","m1905","imgo","seven","YuMi-vip","NBY","SLNB"],
+["youku"，"qq","iqiyi","qiyi","letv","sohu","tudou","pptv","PPTV","mgtv","ltnb","XAL","bilibili","tnmb","xigua","m1905","imgo","seven","YuMi-vip","NBY","SLNB"],
 
 "rules":[
 {"name":"proxy","hosts":["raw.githubusercontent.com","googlevideo.com","cdn.v82u1l.com","cdn.iz8qkg.com","cdn.kin6c1.com","c.biggggg.com","c.olddddd.com","haiwaikan.com","youtube.com","uhibo.com",".*boku.*",".*nivod.*",".*ulivetv.*","zxzj*.","80yy3.*"]},
